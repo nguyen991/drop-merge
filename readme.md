@@ -1,4 +1,4 @@
-# Wood Nuts
+# Drop merge
 
 Welcome to the Drop Merge project! This README provides instructions on how to set up and run the project, including building Addressables and starting the game from the Boost scene.
 
