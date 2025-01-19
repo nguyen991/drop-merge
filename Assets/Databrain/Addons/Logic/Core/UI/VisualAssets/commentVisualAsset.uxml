@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="comment" style="flex-grow: 0; background-color: rgb(231, 215, 136); padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; flex-shrink: 0; flex-wrap: wrap;">
+        <ui:TextField picking-mode="Ignore" multiline="true" />
+        <ui:Button text="This is an ecomment lets see &lt;color=#ffffff&gt;sad&lt;/color&gt; no its not working ooh yes it works cool!" display-tooltip-when-elided="true" name="text" style="background-color: rgba(188, 188, 188, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; -unity-font-style: bold; font-size: 16px; flex-wrap: wrap; white-space: normal; flex-grow: 1; -unity-text-align: upper-left;" />
+    </ui:VisualElement>
+</ui:UXML>

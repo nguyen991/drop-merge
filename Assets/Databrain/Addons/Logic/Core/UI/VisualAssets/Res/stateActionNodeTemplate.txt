@@ -1,0 +1,33 @@
+using System;
+using Databrain.Logic.Attributes;
+using UnityEngine;
+
+namespace Databrain.Logic.StateMachine
+{
+    [NodeTitle(NODE_TITLE)]
+    [NodeCategory("StateMachine/States")]
+    [NodeOutputs(new string[] {"Next"})]
+    [NodeDescription("This is a node description")]
+    [NodeSize(260, 100)]
+    [NodeColor("#C2FAFF", new string[]{"#74AFE0","","",""})]
+    [NodeIcon("fsmAction.png", "LogicResPath.cs")]
+    [NodeInputConnectionType(new Type[] {typeof(Actions)})]
+    public class NODE_NAME : StateMachineActionNode
+    {
+
+        public override void OnEnter()
+        {
+            // On Enter
+        }
+
+        public override void OnExit()
+        {
+            // On Exit
+        }
+
+        public override void OnUpdate()
+        {
+            // On update is called by the state machine controller node on every tick
+        }   
+    }
+}

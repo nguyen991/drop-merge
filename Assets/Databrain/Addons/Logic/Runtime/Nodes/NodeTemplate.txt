@@ -1,0 +1,22 @@
+using Databrain.Attributes;
+using Databrain.Blackboard;
+using Databrain.Actionflow.Attributes;
+using System.Threading.Tasks;
+using UnityEngine;
+
+namespace Databrain.Actionflow
+{
+    [NodeTitle("Wait")]
+    [NodeOutputs(new string[] { "Next" })]
+    [NodeColor("#4F9EC2")]
+    public class Wait : NodeData
+    {
+       
+
+        public override void ExecuteNode()
+        {
+           
+            ExecuteNextNode(0);
+        }
+    }
+}

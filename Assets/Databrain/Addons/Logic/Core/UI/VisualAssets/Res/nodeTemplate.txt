@@ -1,0 +1,21 @@
+using Databrain.Logic.Attributes;
+using UnityEngine;
+
+namespace Databrain.Logic
+{
+    [NodeTitle(NODE_TITLE)]
+    [NodeCategory("Custom")]
+    [NodeOutputs(new string[] {"Next"})]
+    [NodeDescription("This is a node description")]
+    public class NODE_NAME : NodeData
+    {
+
+        public override void ExecuteNode()
+        {
+            // Enter code here
+            ///////////////////
+
+            ExecuteNextNode(0);
+        }   
+    }
+}

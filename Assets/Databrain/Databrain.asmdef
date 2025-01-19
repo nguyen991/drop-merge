@@ -1,0 +1,25 @@
+{
+    "name": "Databrain",
+    "rootNamespace": "",
+    "references": [
+        "GUID:3a4e935828f104039b90d535bc856a32",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:8c4dd21966739024fbd72155091d199e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.ai.navigation",
+            "expression": "1",
+            "define": "DATABRAIN_UNITY_NAVIGATION"
+        }
+    ],
+    "noEngineReferences": false
+}

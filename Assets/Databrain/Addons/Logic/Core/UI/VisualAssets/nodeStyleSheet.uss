@@ -1,0 +1,130 @@
+.node {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-color: rgb(95, 129, 159);
+    border-right-color: rgb(95, 129, 159);
+    border-top-color: rgb(95, 129, 159);
+    background-color: rgb(79, 79, 79);
+    border-bottom-color: rgb(24, 24, 24);
+}
+
+.header {
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-bottom-width: 2px;
+    border-top-width: 0;
+    border-bottom-color: rgb(75, 75, 75);
+    background-image: url('project://database/Assets/Databrain/Addons/Logic/Core/UI/VisualAssets/Res/nodeColorHighlight.png?fileID=2800000&guid=cad80c5a13110944c977da20a8b2811d&type=3#nodeColorHighlight');
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.4);
+}
+
+.content {
+    flex-direction: row;
+    justify-content: center;
+    border-top-width: 1px;
+    border-top-color: rgb(99, 99, 99);
+}
+
+.content-left {
+    width: 50%;
+    border-right-width: 1px;
+    border-right-color: rgb(100, 100, 100);
+    justify-content: flex-start;
+}
+
+.content-right {
+    width: 50%;
+    background-color: rgb(70, 70, 70);
+    border-left-width: 1px;
+    border-left-color: rgb(75, 75, 75);
+}
+
+.nodeHighlight {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    left: 5px;
+    top: 5px;
+}
+
+.nodeHighlight :hover {
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-width: 20px;
+    border-right-width: 20px;
+    border-top-width: 20px;
+    border-bottom-width: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nodeBorder {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    transition-property: border-color;
+    transition-duration: 200ms;
+}
+
+.nodeBorder-active {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-color: rgb(255, 253, 0);
+    border-right-color: rgb(255, 253, 0);
+    border-top-color: rgb(255, 253, 0);
+    border-bottom-color: rgb(255, 253, 0);
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    transition-property: border-color;
+    transition-duration: 1s;
+}

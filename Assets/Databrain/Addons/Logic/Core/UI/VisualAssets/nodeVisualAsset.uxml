@@ -1,0 +1,26 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Databrain/Addons/Logic/Core/UI/VisualAssets/nodeStyleSheet.uss?fileID=7433441132597879392&amp;guid=92e4ed85052df5b4785e3f28682b4634&amp;type=3#nodeStyleSheet" />
+    <ui:VisualElement name="nodeBorder" class="nodeBorder" style="background-color: rgba(255, 255, 255, 0); padding-top: 6px; padding-right: 6px; padding-bottom: 6px; padding-left: 6px; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; -unity-slice-left: 10; -unity-slice-top: 10; -unity-slice-right: 10; -unity-slice-bottom: 10; -unity-background-scale-mode: stretch-to-fill;">
+        <ui:VisualElement name="nodeGradientBorder" style="flex-grow: 1; background-color: rgb(255, 255, 255); padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px;">
+            <ui:VisualElement name="node" class="node" style="border-bottom-color: rgb(95, 129, 159); -unity-background-image-tint-color: rgb(255, 255, 255); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(95, 129, 159); border-right-color: rgb(95, 129, 159); border-top-color: rgb(95, 129, 159);">
+                <ui:VisualElement name="dragArea" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0);">
+                    <ui:VisualElement name="header" class="header" style="flex-direction: row; align-items: center; background-image: url(&quot;project://database/Assets/Databrain/Addons/Logic/Core/UI/VisualAssets/Res/nodeColorHighlight.png?fileID=2800000&amp;guid=cad80c5a13110944c977da20a8b2811d&amp;type=3#nodeColorHighlight&quot;);">
+                        <ui:VisualElement name="icon" style="flex-grow: 0; width: 20px; height: 20px; -unity-background-scale-mode: scale-to-fit; align-items: flex-start; margin-right: 5px;" />
+                        <ui:Label text="Node Title" display-tooltip-when-elided="true" name="title" style="-unity-font-style: bold;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="content" class="content">
+                        <ui:VisualElement name="left" class="content-left" style="width: 50px; flex-grow: 0; flex-shrink: 1;">
+                            <ui:VisualElement name="inputSlot" style="flex-direction: row; height: 20px; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;">
+                                <ui:VisualElement name="inputSlotBG" style="width: 10px; height: 10px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; background-color: rgba(0, 0, 0, 0.75); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(100, 100, 100); border-right-color: rgb(100, 100, 100); border-top-color: rgb(100, 100, 100); border-bottom-color: rgb(100, 100, 100);" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="right" class="content-right" style="width: auto; flex-grow: 1;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="values" style="background-color: rgb(58, 58, 58); flex-grow: 1; border-top-width: 2px; border-top-color: rgb(51, 51, 51); border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;">
+                    <ui:Foldout text="Values" name="foldout" style="flex-grow: 0;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

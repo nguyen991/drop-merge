@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="outputSlot" style="flex-direction: row; height: 20px; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;">
+        <ui:VisualElement name="colorIndicator" style="flex-grow: 0; background-color: rgba(255, 255, 255, 0); width: 2px; height: 12px; margin-right: 4px;" />
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="label" style="flex-grow: 1; -unity-text-align: middle-left;" />
+        <ui:VisualElement name="slot" style="width: 10px; height: 10px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; background-color: rgb(0, 0, 0); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(101, 101, 101); border-right-color: rgb(101, 101, 101); border-top-color: rgb(101, 101, 101); border-bottom-color: rgb(101, 101, 101); min-width: 10px; min-height: 10px;" />
+    </ui:VisualElement>
+</ui:UXML>
